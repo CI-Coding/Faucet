@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"node dist/app.js"
+    "postinstall": "npm run tsc"
   },
   "author": "pk910 (https://pk910.de)",
   "license": "AGPL-3.0",
